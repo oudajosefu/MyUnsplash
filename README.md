@@ -42,6 +42,10 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 -   What have you learned/improved?
     -   I learned a lot about state and how I can use the `useReducer` hook to manage more complex states.
     -   I learned how to implement modals using Headless UI and Tailwind
+-   Notes:
+    -   I used this project as a way to improve my skills with Next.js and Tailwind. I stumbled upon the problem of how I was going to add a modals for the delete and add photo dialogs so I ended up choosing a Tailwind solution called Headless UI. This library of components allowed me to add Dialog components that act as modals and style them with Tailwind to make them look like modals.
+    -   I saw that the project required an api implementation but I didn't think that was necessary because you could just use the Unsplash api. The only api endpoint I ended up making was one that I could call on the client-side which would then make a call to the Unsplash api on the server-side so that it can still have access to the api key's environment variable.
+    -   I decided not to make this website responsive so that I can focus more on the Next.js aspect.
 
 ### Built With
 
