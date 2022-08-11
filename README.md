@@ -41,12 +41,14 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
     -   This project was really annoying to complete because I tried implementing a search bar's functionality all through React and state management so the state quickly became quite complex. In the future, I would most likely switch out this functionality for something more robust and reliable like the built-in indexing functionality that come with big name databases such as Redis.
 -   What have you learned/improved?
     -   I learned a lot about state and how I can use the `useReducer` hook to manage more complex states.
+    -   I learned how to implement modals using Headless UI and Tailwind
 
 ### Built With
 
 -   [React](https://reactjs.org/)
 -   [Next.js](https://nextjs.org/)
 -   [Tailwind](https://tailwindcss.com/)
+-   [Headless UI](https://headlessui.com/)
 
 ## Features
 
