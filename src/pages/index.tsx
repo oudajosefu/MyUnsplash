@@ -160,7 +160,7 @@ const Home: NextPage = ({ data }: InferGetStaticPropsType<GetStaticProps>) => {
 				<link rel='icon' href='/devchallenges.png' />
 			</Head>
 
-			<main className='flex w-full flex-col px-24'>
+			<main className='flex w-full flex-col px-24 pb-24'>
 				<header className='flex justify-between w-full items-center py-11'>
 					<div className='flex items-center gap-11'>
 						<Image

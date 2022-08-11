@@ -17,7 +17,7 @@ interface Props {
 }
 const ImageButton = ({ image, handleClick }: Props) => {
 	return (
-		<div className='relative group rounded-3xl overflow-hidden flex shadow-xl shadow-[#888888]'>
+		<div className='relative group rounded-3xl overflow-hidden flex shadow-xl shadow-[#888888] hover:shadow-black'>
 			<Image
 				className='rounded-3xl'
 				src={image.urls.regular}
